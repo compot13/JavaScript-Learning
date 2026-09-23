@@ -1,0 +1,54 @@
+{
+  "track": "basics",
+  "title": "Background reading",
+  "items": [
+    {
+      "id": "basics-001",
+      "title": "What JavaScript runs on",
+      "folder": "basics/001-what-javascript-runs-on.md",
+      "teaches": "The difference between the browser and Node, and which one this course uses.",
+      "dueBefore": "js-001",
+      "authored": true
+    },
+    {
+      "id": "basics-002",
+      "title": "What a test is, and why this course uses them",
+      "folder": "basics/002-what-a-test-is.md",
+      "teaches": "What the test files are doing and how to read a pass or a failure.",
+      "dueBefore": "js-002",
+      "authored": true
+    },
+    {
+      "id": "basics-003",
+      "title": "How to read an error message",
+      "folder": "basics/003-how-to-read-an-error-message.md",
+      "teaches": "How to get the useful information out of a red wall of text.",
+      "dueBefore": "js-004",
+      "authored": true
+    },
+    {
+      "id": "basics-004",
+      "title": "What npm and package.json are",
+      "folder": "basics/004-what-npm-and-package-json-are.md",
+      "teaches": "What npm run actually does, and what lives in package.json.",
+      "dueBefore": "js-008",
+      "authored": true
+    },
+    {
+      "id": "basics-005",
+      "title": "Values and references",
+      "folder": "basics/005-values-and-references.md",
+      "teaches": "Why copying a number and copying an array behave differently.",
+      "dueBefore": "js-013",
+      "authored": true
+    },
+    {
+      "id": "basics-006",
+      "title": "What JSON is for",
+      "folder": "basics/006-what-json-is-for.md",
+      "teaches": "Why data gets turned into text before it travels anywhere.",
+      "dueBefore": "js-020",
+      "authored": true
+    }
+  ]
+}

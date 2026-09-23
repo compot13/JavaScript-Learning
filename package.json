@@ -1,0 +1,15 @@
+{
+  "name": "learn-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A self-study JavaScript course: one lesson, one exercise and one LeetCode problem a day, with tests that tell you whether you got it right.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "learn": "node bin/learn.js",
+    "test": "node bin/learn.js test",
+    "test:cli": "node --test \"test/**/*.test.js\""
+  }
+}

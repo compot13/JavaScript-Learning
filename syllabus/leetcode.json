@@ -1,0 +1,330 @@
+{
+  "track": "leetcode",
+  "title": "LeetCode (easy)",
+  "items": [
+    {
+      "id": "lc-1480",
+      "number": 1480,
+      "title": "Running Sum of 1d Array",
+      "folder": "leetcode/1480-running-sum-of-1d-array",
+      "url": "https://leetcode.com/problems/running-sum-of-1d-array/",
+      "teaches": "Carry a total across a loop and build a result array as you go.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-1929",
+      "number": 1929,
+      "title": "Concatenation of Array",
+      "folder": "leetcode/1929-concatenation-of-array",
+      "url": "https://leetcode.com/problems/concatenation-of-array/",
+      "teaches": "Read an array twice in one pass and push onto a new array.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0412",
+      "number": 412,
+      "title": "Fizz Buzz",
+      "folder": "leetcode/0412-fizz-buzz",
+      "url": "https://leetcode.com/problems/fizz-buzz/",
+      "teaches": "Order your conditions so the combined case is tested first.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0344",
+      "number": 344,
+      "title": "Reverse String",
+      "folder": "leetcode/0344-reverse-string",
+      "url": "https://leetcode.com/problems/reverse-string/",
+      "teaches": "Change an array in place by swapping from both ends.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0058",
+      "number": 58,
+      "title": "Length of Last Word",
+      "folder": "leetcode/0058-length-of-last-word",
+      "url": "https://leetcode.com/problems/length-of-last-word/",
+      "teaches": "Deal with trailing spaces before you split text apart.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0066",
+      "number": 66,
+      "title": "Plus One",
+      "folder": "leetcode/0066-plus-one",
+      "url": "https://leetcode.com/problems/plus-one/",
+      "teaches": "Walk an array backwards and carry a digit, the way you add on paper.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0283",
+      "number": 283,
+      "title": "Move Zeroes",
+      "folder": "leetcode/0283-move-zeroes",
+      "url": "https://leetcode.com/problems/move-zeroes/",
+      "teaches": "Keep a write position that moves slower than the read position.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0268",
+      "number": 268,
+      "title": "Missing Number",
+      "folder": "leetcode/0268-missing-number",
+      "url": "https://leetcode.com/problems/missing-number/",
+      "teaches": "Compare what a total should be against what it is.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0121",
+      "number": 121,
+      "title": "Best Time to Buy and Sell Stock",
+      "folder": "leetcode/0121-best-time-to-buy-and-sell-stock",
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "teaches": "Track the best answer so far and the cheapest price so far in one pass.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0392",
+      "number": 392,
+      "title": "Is Subsequence",
+      "folder": "leetcode/0392-is-subsequence",
+      "url": "https://leetcode.com/problems/is-subsequence/",
+      "teaches": "Advance two positions at different speeds through two strings.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0125",
+      "number": 125,
+      "title": "Valid Palindrome",
+      "folder": "leetcode/0125-valid-palindrome",
+      "url": "https://leetcode.com/problems/valid-palindrome/",
+      "teaches": "Clean input first, then compare it against itself reversed.",
+      "requires": [
+        "js-010"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0014",
+      "number": 14,
+      "title": "Longest Common Prefix",
+      "folder": "leetcode/0014-longest-common-prefix",
+      "url": "https://leetcode.com/problems/longest-common-prefix/",
+      "teaches": "Shrink a candidate answer until every input agrees with it.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0704",
+      "number": 704,
+      "title": "Binary Search",
+      "folder": "leetcode/0704-binary-search",
+      "url": "https://leetcode.com/problems/binary-search/",
+      "teaches": "Halve the search space each step using low, high and middle.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0088",
+      "number": 88,
+      "title": "Merge Sorted Array",
+      "folder": "leetcode/0088-merge-sorted-array",
+      "url": "https://leetcode.com/problems/merge-sorted-array/",
+      "teaches": "Merge two sorted lists from the back so you never overwrite unread data.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0509",
+      "number": 509,
+      "title": "Fibonacci Number",
+      "folder": "leetcode/0509-fibonacci-number",
+      "url": "https://leetcode.com/problems/fibonacci-number/",
+      "teaches": "Keep only the last two values instead of the whole sequence.",
+      "requires": [
+        "js-007"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0070",
+      "number": 70,
+      "title": "Climbing Stairs",
+      "folder": "leetcode/0070-climbing-stairs",
+      "url": "https://leetcode.com/problems/climbing-stairs/",
+      "teaches": "Recognise a counting problem that is the same shape as Fibonacci.",
+      "requires": [
+        "js-007"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0217",
+      "number": 217,
+      "title": "Contains Duplicate",
+      "folder": "leetcode/0217-contains-duplicate",
+      "url": "https://leetcode.com/problems/contains-duplicate/",
+      "teaches": "Use a Set to remember what you have already seen.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0242",
+      "number": 242,
+      "title": "Valid Anagram",
+      "folder": "leetcode/0242-valid-anagram",
+      "url": "https://leetcode.com/problems/valid-anagram/",
+      "teaches": "Count letters once per string and compare the two counts.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0383",
+      "number": 383,
+      "title": "Ransom Note",
+      "folder": "leetcode/0383-ransom-note",
+      "url": "https://leetcode.com/problems/ransom-note/",
+      "teaches": "Spend from a count of available letters instead of searching repeatedly.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0169",
+      "number": 169,
+      "title": "Majority Element",
+      "folder": "leetcode/0169-majority-element",
+      "url": "https://leetcode.com/problems/majority-element/",
+      "teaches": "Count occurrences in a Map and find the largest count.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0001",
+      "number": 1,
+      "title": "Two Sum",
+      "folder": "leetcode/0001-two-sum",
+      "url": "https://leetcode.com/problems/two-sum/",
+      "teaches": "Store what you have seen so the partner of each number is one lookup away.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0013",
+      "number": 13,
+      "title": "Roman to Integer",
+      "folder": "leetcode/0013-roman-to-integer",
+      "url": "https://leetcode.com/problems/roman-to-integer/",
+      "teaches": "Look ahead one character to decide whether to add or subtract.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0202",
+      "number": 202,
+      "title": "Happy Number",
+      "folder": "leetcode/0202-happy-number",
+      "url": "https://leetcode.com/problems/happy-number/",
+      "teaches": "Detect a loop by remembering every value you have produced.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0020",
+      "number": 20,
+      "title": "Valid Parentheses",
+      "folder": "leetcode/0020-valid-parentheses",
+      "url": "https://leetcode.com/problems/valid-parentheses/",
+      "teaches": "Use an array as a stack so the newest opener is the first to close.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0206",
+      "number": 206,
+      "title": "Reverse Linked List",
+      "folder": "leetcode/0206-reverse-linked-list",
+      "url": "https://leetcode.com/problems/reverse-linked-list/",
+      "teaches": "Walk a chain of objects and turn each link around without losing the rest.",
+      "requires": [
+        "js-012"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0021",
+      "number": 21,
+      "title": "Merge Two Sorted Lists",
+      "folder": "leetcode/0021-merge-two-sorted-lists",
+      "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+      "teaches": "Build a new chain by repeatedly taking the smaller head.",
+      "requires": [
+        "js-012"
+      ],
+      "authored": true
+    },
+    {
+      "id": "lc-0104",
+      "number": 104,
+      "title": "Maximum Depth of Binary Tree",
+      "folder": "leetcode/0104-maximum-depth-of-binary-tree",
+      "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      "teaches": "Let a function call itself on each half of a tree.",
+      "requires": [
+        "js-012"
+      ],
+      "authored": true
+    }
+  ]
+}

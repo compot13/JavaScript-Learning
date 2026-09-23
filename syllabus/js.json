@@ -1,0 +1,244 @@
+{
+  "track": "js",
+  "title": "JavaScript",
+  "items": [
+    {
+      "id": "js-001",
+      "title": "Variables, let/const, and the basic types",
+      "folder": "js/001-variables-and-types",
+      "teaches": "Store a value in a name, choose between let and const, and say what type a value is.",
+      "requires": [],
+      "authored": true
+    },
+    {
+      "id": "js-002",
+      "title": "Strings and template literals",
+      "folder": "js/002-strings",
+      "teaches": "Build and inspect text with template literals and the common string methods.",
+      "requires": [
+        "js-001"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-003",
+      "title": "Numbers, math, and NaN",
+      "folder": "js/003-numbers-and-nan",
+      "teaches": "Do arithmetic, round on purpose, and recognise where NaN comes from.",
+      "requires": [
+        "js-001"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-004",
+      "title": "Booleans, comparison, === vs ==, truthy and falsy",
+      "folder": "js/004-booleans-and-comparison",
+      "teaches": "Compare values safely and predict which values count as true.",
+      "requires": [
+        "js-003"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-005",
+      "title": "if / else and the ternary",
+      "folder": "js/005-if-else-and-ternary",
+      "teaches": "Run different code for different inputs, and pick a value with a ternary.",
+      "requires": [
+        "js-004"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-006",
+      "title": "Loops: for, while, for...of",
+      "folder": "js/006-loops",
+      "teaches": "Repeat work a fixed number of times, until a condition changes, or once per item.",
+      "requires": [
+        "js-005"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-007",
+      "title": "Functions: parameters, defaults, return",
+      "folder": "js/007-functions",
+      "teaches": "Package logic into a named function that takes inputs and returns a value.",
+      "requires": [
+        "js-006"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-008",
+      "title": "Arrow functions and scope",
+      "folder": "js/008-arrow-functions-and-scope",
+      "teaches": "Write arrow functions and predict which variables are visible where.",
+      "requires": [
+        "js-007"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-009",
+      "title": "Arrays: indexing, push/pop, slice vs splice",
+      "folder": "js/009-arrays",
+      "teaches": "Build lists, read them by position, and tell copying apart from mutating.",
+      "requires": [
+        "js-008"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-010",
+      "title": "Array methods: map, filter, find, some, every",
+      "folder": "js/010-array-methods",
+      "teaches": "Transform and search arrays without writing the loop yourself.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-011",
+      "title": "reduce, on its own",
+      "folder": "js/011-reduce",
+      "teaches": "Collapse an array into one value, and trace the accumulator step by step.",
+      "requires": [
+        "js-010"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-012",
+      "title": "Objects: properties, nesting, optional chaining",
+      "folder": "js/012-objects",
+      "teaches": "Group related values under names and read nested data without crashing.",
+      "requires": [
+        "js-009"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-013",
+      "title": "Destructuring, spread and rest",
+      "folder": "js/013-destructuring-spread-rest",
+      "teaches": "Unpack arrays and objects, copy them with changes, and collect extra arguments.",
+      "requires": [
+        "js-012"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-014",
+      "title": "Looping over objects: Object.keys / values / entries",
+      "folder": "js/014-looping-over-objects",
+      "teaches": "Walk through an object's properties when you do not know the key names in advance.",
+      "requires": [
+        "js-013"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-015",
+      "title": "Map and Set, and when they beat a plain object",
+      "folder": "js/015-map-and-set",
+      "teaches": "Count, deduplicate, and look things up with the two collections built for the job.",
+      "requires": [
+        "js-014"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-016",
+      "title": "Sorting and comparator functions",
+      "folder": "js/016-sorting",
+      "teaches": "Sort numbers and objects correctly, and know why the default sort surprises you.",
+      "requires": [
+        "js-015"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-017",
+      "title": "Functions that take functions",
+      "folder": "js/017-callbacks",
+      "teaches": "Pass a function as an argument and write a function that calls the one it is given.",
+      "requires": [
+        "js-016"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-018",
+      "title": "Closures",
+      "folder": "js/018-closures",
+      "teaches": "Return a function that remembers the variables it was created next to.",
+      "requires": [
+        "js-017"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-019",
+      "title": "Errors: throw, try / catch, and stack traces",
+      "folder": "js/019-errors",
+      "teaches": "Raise your own errors, catch the ones you expect, and read where one came from.",
+      "requires": [
+        "js-018"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-020",
+      "title": "JSON: parse, stringify, and why it exists",
+      "folder": "js/020-json",
+      "teaches": "Turn data into text and back, and handle text that is not valid JSON.",
+      "requires": [
+        "js-019"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-021",
+      "title": "Classes, methods, and this",
+      "folder": "js/021-classes",
+      "teaches": "Define a class with a constructor and methods, and know what this refers to.",
+      "requires": [
+        "js-020"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-022",
+      "title": "Modules: import and export",
+      "folder": "js/022-modules",
+      "teaches": "Split code across files and pull pieces back together with import and export.",
+      "requires": [
+        "js-021"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-023",
+      "title": "Promises",
+      "folder": "js/023-promises",
+      "teaches": "Work with a value that is not ready yet, using then and catch.",
+      "requires": [
+        "js-022"
+      ],
+      "authored": true
+    },
+    {
+      "id": "js-024",
+      "title": "async / await, and calling a real API with fetch",
+      "folder": "js/024-async-await",
+      "teaches": "Write asynchronous code that reads top to bottom, and request data over the network.",
+      "requires": [
+        "js-023"
+      ],
+      "authored": true
+    }
+  ]
+}
