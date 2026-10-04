@@ -5,7 +5,7 @@
  * @returns {string}
  */
 export function greet(name) {
-  throw new Error('not implemented');
+  return `Hello, ${name}!`;
 }
 
 /**
@@ -16,7 +16,8 @@ export function greet(name) {
  * @returns {string}
  */
 export function initials(fullName) {
-  throw new Error('not implemented');
+  const [first, last] = fullName.split(' ');
+  return `${first[0]}.${last[0]}`;
 }
 
 /**
@@ -27,5 +28,8 @@ export function initials(fullName) {
  * @returns {string}
  */
 export function titleCase(word) {
-  throw new Error('not implemented');
+  const firstLetter = word.slice(0, 1).toUpperCase();
+  const rest = word.slice(1).toLowerCase();
+  return firstLetter + rest;
+
 }

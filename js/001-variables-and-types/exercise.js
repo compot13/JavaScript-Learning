@@ -6,7 +6,7 @@
  * @returns {string} the type name
  */
 export function typeOf(value) {
-  throw new Error('not implemented');
+  return typeof value;
 }
 
 /**
@@ -18,7 +18,7 @@ export function typeOf(value) {
  * @returns {string}
  */
 export function describeVariable(name, value) {
-  throw new Error('not implemented');
+  return `${name}: ${typeof value}`;
 }
 
 /**
@@ -27,5 +27,8 @@ export function describeVariable(name, value) {
  * @returns {undefined}
  */
 export function initialValue() {
-  throw new Error('not implemented');
+
+let value;
+return value;
+
 }
