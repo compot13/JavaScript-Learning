@@ -4,9 +4,15 @@
  * @param {number} age
  * @returns {boolean}
  */
-export function isAdult(age) {
-  throw new Error('not implemented');
-}
+  export function isAdult(age) {
+    return age >= 18;
+
+  }
+
+  console.log(isAdult(20));
+  console.log(isAdult(12));
+  console.log(isAdult(18));
+
 
 /**
  * Is this text empty or nothing but spaces?
@@ -16,7 +22,7 @@ export function isAdult(age) {
  * @returns {boolean}
  */
 export function isBlank(text) {
-  throw new Error('not implemented');
+  return text.trim().length === 0;
 }
 
 /**
@@ -27,5 +33,10 @@ export function isBlank(text) {
  * @returns {boolean}
  */
 export function canRentCar(age, hasLicence) {
-  throw new Error('not implemented');
+
+   return age >= 21 && hasLicence;
 }
+console.log(canRentCar(25, true));   
+console.log(canRentCar(25, false));  
+console.log(canRentCar(19, true));   
+console.log(canRentCar(21, true));   
