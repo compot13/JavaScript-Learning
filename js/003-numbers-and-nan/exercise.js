@@ -8,7 +8,7 @@
  * @returns {number}
  */
 export function roundTo(value, places) {
-  throw new Error('not implemented');
+  return Number(value.toFixed(places));
 }
 
 /**
@@ -19,7 +19,11 @@ export function roundTo(value, places) {
  * @returns {string}
  */
 export function formatMinutes(totalMinutes) {
-  throw new Error('not implemented');
+  const hours = Math.floor(totalMinutes / 60);
+
+  const minutes = totalMinutes % 60;
+
+  return `${hours}h ${minutes}m`
 }
 
 /**
@@ -29,6 +33,6 @@ export function formatMinutes(totalMinutes) {
  * @param {*} value
  * @returns {boolean}
  */
-export function isBrokenNumber(value) {
-  throw new Error('not implemented');
+export function isBrokenNumber(value) { 
+  return Number.isNaN(value);
 }
