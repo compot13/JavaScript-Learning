@@ -6,8 +6,17 @@
  * @returns {string}
  */
 export function grade(score) {
-  throw new Error('not implemented');
+
+  if (score >=90) return ('A');
+  if (score >= 70) return ('B');
+  if (score >= 50) return ('C');
+  return ('F');
 }
+
+console.log(grade(95)); 
+console.log(grade(75));  
+console.log(grade(55));  
+console.log(grade(23));  
 
 /**
  * Price of a ticket for someone of this age.
@@ -17,8 +26,15 @@ export function grade(score) {
  * @returns {number}
  */
 export function ticketPrice(age) {
-  throw new Error('not implemented');
+  if (age < 5) return 0;
+  if (age <= 17) return 8;
+  if (age <= 64) return 12;
+  return 9;
 }
+console.log(ticketPrice(4.5)); 
+console.log(ticketPrice(10)); 
+console.log(ticketPrice(30)); 
+console.log(ticketPrice(65)); 
 
 /**
  * Put a count and a word together, adding an s unless the count is 1.
@@ -29,5 +45,11 @@ export function ticketPrice(age) {
  * @returns {string}
  */
 export function pluralise(count, word) {
-  throw new Error('not implemented');
+  if (count === 1) {
+    return `${count} ${word}`;
+  }
+  return `${count} ${word}s`;
 }
+console.log(pluralise(3, 'file'));
+console.log(pluralise(1, 'file'));
+console.log(pluralise(0, 'file'));
