@@ -6,8 +6,15 @@
  * @returns {number}
  */
 export function sumTo(n) {
-  throw new Error('not implemented');
+
+  let total = 0;
+
+ for (let i = 1; i <= n; i++){
+   total += i;
+ }
+ return total;
 }
+console.log(sumTo(4));
 
 /**
  * Count the vowels in some text, in either case.
@@ -17,8 +24,18 @@ export function sumTo(n) {
  * @returns {number}
  */
 export function countVowels(text) {
-  throw new Error('not implemented');
+  const vowels = 'aeiou';
+  let count = 0; 
+  for (const letter of text.toLowerCase()){
+    if (vowels.includes(letter)) {
+      count += 1;
+    }
+  }
+  return count;
 }
+console.log(countVowels('banana'));
+console.log(countVowels('BANANA'));
+console.log(countVowels('xyz'));
 
 /**
  * Return the text backwards, built one character at a time.
@@ -28,5 +45,16 @@ export function countVowels(text) {
  * @returns {string}
  */
 export function reverse(text) {
-  throw new Error('not implemented');
+
+let reversed = '';
+
+for (const letter of text) {
+    reversed = letter + reversed;
+  }
+
+return reversed;
 }
+
+console.log(reverse('abc'));  
+console.log(reverse('google'));      
+console.log(reverse(''));
